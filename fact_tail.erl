@@ -1,6 +1,7 @@
 -module(fact_tail).
 -export([factorial/1]).
 
+
 factorial(N) ->
   factorial(1, N, 1).
 
